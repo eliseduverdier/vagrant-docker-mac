@@ -2,13 +2,16 @@
 
 ## How to install
 ```shell
-brew cask install virtualbox
-brew cask install vagrant
+brew install --cask virtualbox
+brew install --cask vagrant
 
 ```
 
 ## How to use
-Add the [Vagrantfile](Vagrantfile) alongside your project(s)
+Add the [`Vagrantfile`](Vagrantfile) alongside your project(s)
+
+The `vagrant-bootstrap.sh` is optional (only needed if you want to add custom config)
+
 ```shell
 # launch machine
 vagrant up --provision
